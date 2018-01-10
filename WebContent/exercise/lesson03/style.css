@@ -1,0 +1,21 @@
+body {background: LightYellow;}
+
+.output {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: left;
+}
+
+#culm_form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -12px;
+  text-align: left;
+}
+
+#output {
+  color: red;
+}

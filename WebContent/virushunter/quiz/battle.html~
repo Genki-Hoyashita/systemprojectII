@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Battle</title>
+    <link rel="stylesheet" type="text/css" href="battle.css"/>
+    <script type="text/javascript" src="./quiz/battle.js"></script>
+  </head>
+
+  
+  <body>
+    <h1>
+      <img id="monster" src="monster.jpeg"  title="クイズモンスター">
+    </h1>
+
+
+     <input id="easy_button" type="submit" value="easy"/>
+      <input id="nomal_button" type="submit" value="nomal"/>
+      <input id="Hard_button" type="submit" value="hard"/>
+
+      
+    <table class="questionTable">
+     
+      
+      <tr>
+	<th>
+	  問題:
+	</th>
+
+	<td>
+	  <span id="1"></span>
+	</td>
+      </tr>
+      
+      <tr>
+	<th>
+	  <span id="1"></span>
+	</th>
+
+	<td>
+	   <input id="a_button" type="submit" value="a"/>
+	</td>
+      </tr>
+      
+      <tr>
+	<th>
+	  <span id="1"></span>
+	</th>
+
+	<td>
+	   <input id="b_button" type="submit" value="b"/>
+	</td>
+      </tr>
+      
+      <tr>
+	<th>
+	  <span id="1"></span>
+	</th>
+
+	<td>
+	   <input id="C_button" type="submit" value="c"/>
+	</td>
+      </tr>
+      
+    </table>
+    
+    <div class="st">
+      HP:<span id="HP"></span>,スコア<span id="SCORE"></span><br><br>
+      
+      問題の答え:<span id="ANSWER"></span>
+    </div>
+    
+  </body>
+  
+  
+</html>

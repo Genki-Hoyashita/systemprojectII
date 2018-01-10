@@ -1,0 +1,14 @@
+body {background: LightYellow;}
+
+.adder {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-left: -160px;
+ margin-top: -12px;
+ text-align: left;
+}
+
+#output {
+  color: red;
+}
